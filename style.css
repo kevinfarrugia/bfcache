@@ -1,0 +1,25 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/roboto-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/roboto-regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/roboto-regular.woff2") format("woff2"),
+    url("./fonts/roboto-regular.woff") format("woff"),
+    url("./fonts/roboto-regular.ttf") format("truetype"),
+    url("./fonts/roboto-regular.svg#Roboto") format("svg");
+}
+
+body {
+  font-family: "Roboto";
+}
+
+figure {
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+}
